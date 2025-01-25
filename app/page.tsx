@@ -5,7 +5,6 @@ import OurTeam from "@/components/our-team";
 import OurTestimonials from "@/components/our-testimonials";
 import { CareerSection } from "@/components/careers";
 import { Footer } from "@/components/footer";
-import { Navbar } from "@/components/navbar";
 import { OurRecentProjects } from "@/components/our-recent-projects";
 import { LandingSection } from "@/components/landing-section";
 
@@ -13,9 +12,6 @@ export default function Home() {
   return (
     <div className="bg-slate-50">
       <div className="bg-slate-50 container mx-auto rounded-xl md:px-8">
-
-        {/* navbar */}
-        <Navbar />
 
         {/* landing section */}
         <LandingSection />

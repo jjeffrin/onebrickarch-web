@@ -82,7 +82,7 @@ const DummyContent = () => {
 export function OurRecentProjects() {
     return (
         <>
-            <h2 className="text-2xl font-bold ml-4">
+            <h2 className="text-2xl font-bold ml-4 mt-8 md:mt-16">
                 <span className="text-red-600 underline decoration-4 underline-offset-4">Our Recent</span> Projects
             </h2>
 
