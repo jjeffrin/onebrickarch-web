@@ -62,7 +62,7 @@ export default function OurTeam() {
         {
             name: 'Mr. John Ajish B',
             role: 'Site Executor Officer',
-            imageUrl: '/img/team/ajay.webp',
+            imageUrl: '/img/team/Ajay.webp',
             url: 'https://www.linkedin.com/in/aj-ay-8195b42b5',
             urlIcon: LINKEDIN
         },
