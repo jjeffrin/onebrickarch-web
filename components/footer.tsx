@@ -17,15 +17,15 @@ export function Footer() {
                         </li>
 
                         <li>
-                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Locate Us </a>
+                            <a className="text-gray-700 transition hover:text-gray-700/75" href="https://maps.app.goo.gl/ASJQryYR7oMfgvQT8"> Locate Us </a>
                         </li>
 
                         <li>
-                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Instagram </a>
+                            <a className="text-gray-700 transition hover:text-gray-700/75" href="https://www.instagram.com/onebrickstudio/"> Instagram </a>
                         </li>
 
                         <li>
-                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Facebook </a>
+                            <a className="text-gray-700 transition hover:text-gray-700/75" href="https://www.facebook.com/profile.php?id=61572060929075"> Facebook </a>
                         </li>
                     </ul>
                 </div>
