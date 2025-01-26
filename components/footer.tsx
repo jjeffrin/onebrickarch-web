@@ -5,7 +5,7 @@ export function Footer() {
                 <div className="lg:flex lg:items-end lg:justify-between">
                     <div>
                         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-                            Transforming concepts into iconic structures. Your story, our design. Designing spaces that reflect your vision. Excellence in every detail - that's the 'One Brick' touch 😊
+                            Transforming concepts into iconic structures. Your story, our design. Designing spaces that reflect your vision. Excellence in every detail - that&apos;s the &apos;One Brick&apos; touch 😊
                         </p>
                     </div>
 

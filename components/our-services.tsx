@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function OurServices() {
   return (
     <div className="bg-gray-50 py-24 sm:py-32">
@@ -20,7 +22,7 @@ export default function OurServices() {
               </div>
               <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                 <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden bg-gray-900 shadow-2xl rounded-xl">
-                  <img
+                  <Image
                     className="size-full object-cover object-top"
                     src="img/interior.webp"
                     alt=""
@@ -40,7 +42,7 @@ export default function OurServices() {
                 </p>
               </div>
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-                <img
+                <Image
                   className="w-full max-lg:max-w-xs rounded-xl my-4"
                   src="img/arch.webp"
                   alt=""
@@ -59,7 +61,7 @@ export default function OurServices() {
                 </p>
               </div>
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
-                <img
+                <Image
                   className="w-full max-lg:max-w-xs rounded-xl my-4"
                   src="img/landscaping.webp"
                   alt=""
@@ -82,7 +84,7 @@ export default function OurServices() {
               {/* fill this */}
               <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                 <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden bg-gray-900 shadow-2xl rounded-xl">
-                  <img
+                  <Image
                     className="size-full object-cover object-top"
                     src="img/3d_vis.webp"
                     alt=""

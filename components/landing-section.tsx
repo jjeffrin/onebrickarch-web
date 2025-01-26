@@ -1,15 +1,12 @@
-import { FaArrowDown } from "react-icons/fa";
-import { AnimatedShinyText } from "./AnimatedShinyText";
-import { NumberTicker } from "./number-ticker";
-import { cn } from "@/lib/utils";
-import { AuroraBackground } from "./aurora-background";
 import { motion } from "framer-motion";
+import { AuroraBackground } from "./aurora-background";
+import { NumberTicker } from "./number-ticker";
 import { SparklesText } from "./sparkles-text";
-import { FlipWords } from "./flip-words";
+import Image from "next/image"
 
 export function LandingSection() {
 
-    const words = ["better", "cute", "beautiful", "modern"];
+    // const words = ["better", "cute", "beautiful", "modern"];
 
     return (
         <AuroraBackground className="border-slate-200 border-[1px] border-b-0 rounded-lg">
@@ -33,13 +30,13 @@ export function LandingSection() {
                 <main className="flex flex-col items-center justify-center h-[90vh]">
 
                     {/* Image */}
-                    <img src="img/Houses-amico.svg" className="h-[15rem]" />
+                    <Image src="img/Houses-amico.svg" alt="One Brick Studio Logo" className="h-[15rem]" />
 
                     {/* Heading */}
                     <h1 className="font-bold text-3xl text-center mb-1 md:text-6xl"><span className="text-red-600">ONE BRICK</span> Architects</h1>
 
                     {/* Sub Content */}
-                    <p className="text-center text-sm mb-4 md:text-xl">Peak performance architecting, it's as good as it gets.</p>
+                    <p className="text-center text-sm mb-4 md:text-xl">Peak performance architecting, it&apos;s as good as it gets.</p>
 
                     {/* Project count  */}
                     <NumberTicker value={100} descr="+ projects," className="text-xl font-semibold mb-2" />

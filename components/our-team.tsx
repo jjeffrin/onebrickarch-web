@@ -1,6 +1,7 @@
 import { INSTAGRAM, LINKEDIN } from "@/lib/constants";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import Image from "next/image"
 
 interface ITeam {
     name: string,
@@ -97,7 +98,7 @@ export default function OurTeam() {
                     {people.map((person) => (
                         <li key={person.name}>
                             <div className="flex items-center gap-x-6">
-                                <img alt="" src={person.imageUrl} className="size-16 rounded-full grayscale" />
+                                <Image alt="" src={person.imageUrl} className="size-16 rounded-full grayscale" />
                                 <div>
                                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">{person.name}</h3>
                                     <p className="text-sm/6 font-semibold text-indigo-600">{person.role}</p>

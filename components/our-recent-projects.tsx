@@ -2,6 +2,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { AnimatedShinyText } from "./AnimatedShinyText";
 import { Card, Carousel } from "./apple-cards-carousel";
 import { cn } from "@/lib/utils";
+import Image from "next/image"
 
 const DummyContent = () => {
     return (
@@ -21,7 +22,7 @@ const DummyContent = () => {
                 Langotiya jeetu ka mara hua yaar is ready to capture every
                 thought.
               </p>
-              <img
+              <Image
                 src="https://assets.aceternity.com/macbook.png"
                 alt="Macbook mockup from Aceternity UI"
                 height="500"
