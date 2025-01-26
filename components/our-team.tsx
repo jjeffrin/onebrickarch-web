@@ -1,21 +1,84 @@
+import { INSTAGRAM, LINKEDIN } from "@/lib/constants";
 import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+
+interface ITeam {
+    name: string,
+    role: string,
+    imageUrl: string,
+    urlIcon?: string,
+    url?: string,
+}
 
 export default function OurTeam() {
 
-    const people = [
+    const people: ITeam[] = [
         {
-            name: 'Nihil Antony',
-            role: 'Co-Founder / CEO',
-            imageUrl:
-                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            name: 'Mr. Nihil Antony',
+            role: 'Founder/CEO',
+            imageUrl: 'img/team/Nihil_Antony.webp',
+            url: 'https://www.linkedin.com/in/nihil-antony-a034351a0',
+            urlIcon: LINKEDIN
         },
         {
-            name: 'Arsha Rajan',
-            role: 'Co-Founder',
-            imageUrl:
-                'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            name: 'Mrs. Arsha Rajan',
+            role: 'Co-Founder/CEO',
+            imageUrl: 'img/team/Arsha.webp',
+            url: 'https://www.linkedin.com/in/arsha-rajan-6270581a0',
+            urlIcon: LINKEDIN
         },
-        // more people here..
+        {
+            name: 'Mr. Antony Rajan',
+            role: 'Accounts Management Head',
+            imageUrl: 'img/team/Antony_Rajan.webp',
+        },
+        {
+            name: 'Mr. Antony Rebeira',
+            role: 'Business Development Head',
+            imageUrl: 'img/team/Antony_Rebeira.webp',
+        },
+        {
+            name: 'Mr. Paulson Bosco',
+            role: 'Human Resource',
+            imageUrl: 'img/team/Paulson_Bosco.webp',
+            url: 'https://www.instagram.com/bolsonbosco?igsh=MTl1NmJoOGg0eWlt',
+            urlIcon: INSTAGRAM
+        },
+        {
+            name: 'Mr. Vinith Kumar',
+            role: 'Project Manager',
+            imageUrl: 'img/team/generic.webp',
+            url: 'https://www.linkedin.com/in/vinith-kumar-13228231a',
+            urlIcon: LINKEDIN
+        },
+        {
+            name: 'Mr. Ratheesh Mon R',
+            role: 'Construction Management Head',
+            imageUrl: 'img/team/Ratheessh_Mon.webp',
+            url: 'https://www.linkedin.com/in/ratheesh-ratheesh-02b23322a',
+            urlIcon: LINKEDIN
+        },
+        {
+            name: 'Mr. John Ajish B',
+            role: 'Site Executor Officer',
+            imageUrl: 'img/team/ajay.webp',
+            url: 'https://www.linkedin.com/in/aj-ay-8195b42b5',
+            urlIcon: LINKEDIN
+        },
+        {
+            name: 'Mr. Castro',
+            role: 'Creative Head',
+            imageUrl: 'img/team/Antony_Castro.webp',
+            url: 'https://www.linkedin.com/in/castro-antony-1a6986347',
+            urlIcon: LINKEDIN
+        },
+        {
+            name: 'Mr. Alex M',
+            role: 'Public Relationship Officer',
+            imageUrl: 'img/team/Alex.webp',
+            url: 'https://www.linkedin.com/in/alex-m-b900512bb',
+            urlIcon: LINKEDIN
+        }
     ]
 
     return (
@@ -34,11 +97,11 @@ export default function OurTeam() {
                     {people.map((person) => (
                         <li key={person.name}>
                             <div className="flex items-center gap-x-6">
-                                <img alt="" src={person.imageUrl} className="size-16 rounded-full" />
+                                <img alt="" src={person.imageUrl} className="size-16 rounded-full grayscale" />
                                 <div>
                                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">{person.name}</h3>
                                     <p className="text-sm/6 font-semibold text-indigo-600">{person.role}</p>
-                                    <FaInstagram className="text-sm/6" />
+                                    {person.urlIcon && <a href={person.url} target="_blank">{person.urlIcon === INSTAGRAM ? <FaInstagram className="text-sm/6" /> : <FaLinkedin className="text-sm/6" />}</a>}
                                 </div>
                             </div>
                         </li>

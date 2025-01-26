@@ -36,10 +36,10 @@ export function LandingSection() {
                     <img src="img/Houses-amico.svg" className="h-[15rem]" />
 
                     {/* Heading */}
-                    <h1 className="font-bold text-3xl text-center mb-1"><span className="text-red-600">ONE BRICK</span> Architects</h1>
+                    <h1 className="font-bold text-3xl text-center mb-1 md:text-6xl"><span className="text-red-600">ONE BRICK</span> Architects</h1>
 
                     {/* Sub Content */}
-                    <p className="text-center text-sm mb-4">Peak performance architecting, it's as good as it gets.</p>
+                    <p className="text-center text-sm mb-4 md:text-xl">Peak performance architecting, it's as good as it gets.</p>
 
                     {/* Project count  */}
                     <NumberTicker value={100} descr="+ projects," className="text-xl font-semibold mb-2" />

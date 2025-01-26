@@ -5,8 +5,7 @@ export function Footer() {
                 <div className="lg:flex lg:items-end lg:justify-between">
                     <div>
                         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-                            cum itaque neque.
+                            Transforming concepts into iconic structures. Your story, our design. Designing spaces that reflect your vision. Excellence in every detail - that's the 'One Brick' touch 😊
                         </p>
                     </div>
 
@@ -14,25 +13,28 @@ export function Footer() {
                         className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
                     >
                         <li>
-                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
+                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Investor </a>
                         </li>
 
                         <li>
-                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Services </a>
+                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Locate Us </a>
                         </li>
 
                         <li>
-                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Projects </a>
+                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Instagram </a>
                         </li>
 
                         <li>
-                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Blog </a>
+                            <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Facebook </a>
                         </li>
                     </ul>
                 </div>
 
                 <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
-                    Copyright &copy; 2025. All rights reserved.
+                    Website created with 💖 by <a className="text-gray-700 transition hover:text-gray-700/75" href="https://jjeffr.in" target="_blank">Jeffrin Jerome</a>.
+                </p>
+                <p className="text-center text-sm text-gray-500 lg:text-right">
+                    Copyright &copy; {new Date().getFullYear()}. All rights reserved.
                 </p>
             </div>
         </footer>
