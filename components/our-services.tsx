@@ -24,7 +24,7 @@ export default function OurServices() {
                 <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden bg-gray-900 shadow-2xl rounded-xl">
                   <Image
                     className="size-full object-cover object-top"
-                    src="img/interior.webp"
+                    src="/img/interior.webp"
                     alt=""
                   />
                 </div>
@@ -44,7 +44,7 @@ export default function OurServices() {
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
                 <Image
                   className="w-full max-lg:max-w-xs rounded-xl my-4"
-                  src="img/arch.webp"
+                  src="/img/arch.webp"
                   alt=""
                 />
               </div>
@@ -63,7 +63,7 @@ export default function OurServices() {
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
                 <Image
                   className="w-full max-lg:max-w-xs rounded-xl my-4"
-                  src="img/landscaping.webp"
+                  src="/img/landscaping.webp"
                   alt=""
                 />
               </div>
@@ -86,7 +86,7 @@ export default function OurServices() {
                 <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden bg-gray-900 shadow-2xl rounded-xl">
                   <Image
                     className="size-full object-cover object-top"
-                    src="img/3d_vis.webp"
+                    src="/img/3d_vis.webp"
                     alt=""
                   />
                 </div>

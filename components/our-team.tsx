@@ -17,66 +17,66 @@ export default function OurTeam() {
         {
             name: 'Mr. Nihil Antony',
             role: 'Founder/CEO',
-            imageUrl: 'img/team/Nihil_Antony.webp',
+            imageUrl: '/img/team/Nihil_Antony.webp',
             url: 'https://www.linkedin.com/in/nihil-antony-a034351a0',
             urlIcon: LINKEDIN
         },
         {
             name: 'Mrs. Arsha Rajan',
             role: 'Co-Founder/CEO',
-            imageUrl: 'img/team/Arsha.webp',
+            imageUrl: '/img/team/Arsha.webp',
             url: 'https://www.linkedin.com/in/arsha-rajan-6270581a0',
             urlIcon: LINKEDIN
         },
         {
             name: 'Mr. Antony Rajan',
             role: 'Accounts Management Head',
-            imageUrl: 'img/team/Antony_Rajan.webp',
+            imageUrl: '/img/team/Antony_Rajan.webp',
         },
         {
             name: 'Mr. Antony Rebeira',
             role: 'Business Development Head',
-            imageUrl: 'img/team/Antony_Rebeira.webp',
+            imageUrl: '/img/team/Antony_Rebeira.webp',
         },
         {
             name: 'Mr. Paulson Bosco',
             role: 'Human Resource',
-            imageUrl: 'img/team/Paulson_Bosco.webp',
+            imageUrl: '/img/team/Paulson_Bosco.webp',
             url: 'https://www.instagram.com/bolsonbosco?igsh=MTl1NmJoOGg0eWlt',
             urlIcon: INSTAGRAM
         },
         {
             name: 'Mr. Vinith Kumar',
             role: 'Project Manager',
-            imageUrl: 'img/team/generic.webp',
+            imageUrl: '/img/team/generic.webp',
             url: 'https://www.linkedin.com/in/vinith-kumar-13228231a',
             urlIcon: LINKEDIN
         },
         {
             name: 'Mr. Ratheesh Mon R',
             role: 'Construction Management Head',
-            imageUrl: 'img/team/Ratheessh_Mon.webp',
+            imageUrl: '/img/team/Ratheessh_Mon.webp',
             url: 'https://www.linkedin.com/in/ratheesh-ratheesh-02b23322a',
             urlIcon: LINKEDIN
         },
         {
             name: 'Mr. John Ajish B',
             role: 'Site Executor Officer',
-            imageUrl: 'img/team/ajay.webp',
+            imageUrl: '/img/team/ajay.webp',
             url: 'https://www.linkedin.com/in/aj-ay-8195b42b5',
             urlIcon: LINKEDIN
         },
         {
             name: 'Mr. Castro',
             role: 'Creative Head',
-            imageUrl: 'img/team/Antony_Castro.webp',
+            imageUrl: '/img/team/Antony_Castro.webp',
             url: 'https://www.linkedin.com/in/castro-antony-1a6986347',
             urlIcon: LINKEDIN
         },
         {
             name: 'Mr. Alex M',
             role: 'Public Relationship Officer',
-            imageUrl: 'img/team/Alex.webp',
+            imageUrl: '/img/team/Alex.webp',
             url: 'https://www.linkedin.com/in/alex-m-b900512bb',
             urlIcon: LINKEDIN
         }
