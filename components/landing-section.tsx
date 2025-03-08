@@ -20,15 +20,15 @@ export function LandingSection() {
                 }}>
 
                 {/* NAVBAR */}
-                <header className="rounded-xl flex flex-row-reverse items-center gap-8 h-[10vh]">
+                {/* <header className="fixed top-0 left-0 right-0 container mx-auto rounded-xl flex flex-row-reverse items-center gap-8 h-[10vh] bg-white bg-opacity-0 backdrop-blur-md shadow-md px-6 z-50">
                     <a className="text-red-700 transition hover:text-red-700/75" href="#">
                         <SparklesText text="Investor" />
                     </a>
                     <a className="font-semibold cursor-pointer text-red-700 transition hover:text-red-700/75" href="#">Speak to us?</a>
-                </header>
+                </header> */}
                 {/* NAVBAR */}
 
-                <main className="flex flex-col items-center justify-center h-[90vh]">
+                <main className="flex flex-col items-center justify-center h-[100vh]">
 
                     {/* Image */}
                     <Image src={logoImg} alt="One Brick Studio Logo" className="h-[15rem]" />

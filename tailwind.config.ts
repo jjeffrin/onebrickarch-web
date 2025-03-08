@@ -13,6 +13,9 @@ export default {
   darkMode: "selector",
   theme: {
     extend: {
+      colors:{
+        'brand': '#8F0004' 
+      },
       animation: {
         "shiny-text": "shiny-text 8s infinite",
         aurora: "aurora 60s linear infinite",

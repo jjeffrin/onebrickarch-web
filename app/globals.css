@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@theme {
+    --color-brand: #8F0004;
+}
