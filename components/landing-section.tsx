@@ -3,6 +3,7 @@ import { AuroraBackground } from "./aurora-background";
 import { NumberTicker } from "./number-ticker";
 import { SparklesText } from "./sparkles-text";
 import Image from "next/image"
+import logoImg from "../public/img/Houses-amico.svg"
 
 export function LandingSection() {
 
@@ -30,7 +31,7 @@ export function LandingSection() {
                 <main className="flex flex-col items-center justify-center h-[90vh]">
 
                     {/* Image */}
-                    <Image src="img/Houses-amico.svg" alt="One Brick Studio Logo" className="h-[15rem]" />
+                    <Image src={logoImg} alt="One Brick Studio Logo" className="h-[15rem]" />
 
                     {/* Heading */}
                     <h1 className="font-bold text-3xl text-center mb-1 md:text-6xl"><span className="text-red-600">ONE BRICK</span> Architects</h1>
