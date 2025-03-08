@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
     return (
         <section className="text-justify relative isolate overflow-hidden bg-slate-50 px-6 py-24 sm:py-32 lg:px-8">
@@ -35,7 +37,15 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <p className="mx-auto mt-2 max-w-3xl text-balance text-center font-semibold tracking-tight text-gray-950 text-xl mb-4">Whether you're building a <span className="text-brand">new home</span>, planning a <span className="text-brand">renovation</span>, or looking for <span className="text-brand">cost-effective construction solutions, OneBrick</span> is here to guide you.</p>
+            <p className="mx-auto mt-2 max-w-3xl text-balance text-center font-semibold tracking-tight text-gray-950 text-xl mb-4">Whether you&apos;re building a <span className="text-brand">new home</span>, planning a <span className="text-brand">renovation</span>, or looking for <span className="text-brand">cost-effective construction solutions, OneBrick</span> is here to guide you.</p>
+
+            <h2 className="text-4xl font-semibold tracking-tight text-brand sm:text-5xl mt-8 mb-4 text-center">📞Contact us through,</h2>
+            <p className="mx-auto mt-2 max-w-3xl text-balance text-center font-semibold tracking-tight text-gray-950 text-xl mb-2">
+                Email ID: <Link href="mailto:studio.onebrick@gmail.com">studio.onebrick@gmail.com</Link>
+            </p>
+            <p className="mx-auto max-w-3xl text-balance text-center font-semibold tracking-tight text-gray-950 text-xl mb-4">
+                Mobile: <Link href="tel:7550090061">+91 7550090061</Link>
+            </p>
         </section>
     )
 }

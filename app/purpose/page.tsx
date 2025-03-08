@@ -5,7 +5,7 @@ export default function OurPurpose() {
             {/* Vision */}
             <h2 className="text-center font-semibold text-brand text-xl">Our Vision 💡</h2>
             <p className="mx-auto mt-2 max-w-3xl text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl mb-4">
-                "To shape a world where architecture seamlessly blends innovation, functionality, and sustainability—creating spaces that inspire, endure, and elevate the human experience."
+                &quot;To shape a world where architecture seamlessly blends innovation, functionality, and sustainability—creating spaces that inspire, endure, and elevate the human experience.&quot;
             </p>
 
             {/* Mission */}

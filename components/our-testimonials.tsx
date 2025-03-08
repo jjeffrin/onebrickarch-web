@@ -1,10 +1,12 @@
 import Image from "next/image"
+import DentistAvatar from "../public/img/dentist.png"
+import GenericAvatar from "../public/img/team/generic.webp"
 
 export default function OurTestimonials() {
     return (
         <section className="relative isolate overflow-hidden bg-slate-50 px-6 py-24 sm:py-32 lg:px-8">
 
-            <h2 className="text-center text-base/7 font-semibold text-indigo-600">Celebrating your kind words 👏</h2>
+            <h2 className="text-center text-base/7 font-semibold text-brand">Celebrating your kind words 👏</h2>
             <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl mb-4">
                 See what our clients have to say about us 😌
             </p>
@@ -17,23 +19,22 @@ export default function OurTestimonials() {
                 <figure className="mt-10">
                     <blockquote className="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
                         <p>
-                            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                            molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+                            “First of all, thank you for making our dream come true. From the day one you people were so smart and brisk in work. It&apos;s a good quality of your team. Team work always wins you are proving it. We want to work with you in future too.”
                         </p>
                     </blockquote>
                     <figcaption className="mt-10">
                         <Image
                             alt=""
-                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                            src={DentistAvatar}
                             className="mx-auto size-16 rounded-full"
                             height={100} width={100}
                         />
                         <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                            <div className="font-semibold text-gray-900">Judith Black</div>
+                            <div className="font-semibold text-gray-900">Dr. Juliet Philos, MDS</div>
                             <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
                                 <circle r={1} cx={1} cy={1} />
                             </svg>
-                            <div className="text-gray-600">Owner, Hotel Prabhu</div>
+                            <div className="text-gray-600">Dental Surgeon, Diagnostician</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -44,23 +45,22 @@ export default function OurTestimonials() {
                 <figure className="mt-10">
                     <blockquote className="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
                         <p>
-                            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                            molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+                        &quot;One Brick Studio transformed our vision into reality! From concept to execution, they designed a space that is not only stylish and inviting but also highly functional for our operations. The team optimized every inch of our restaurant, ensuring a seamless flow for both customers and staff. Their expertise in balancing aesthetics with practicality made a huge difference in our business. Guests constantly complement our ambiance, and we&apos;ve seen a noticeable increase in footfall since opening. If you&apos;re looking for architects who truly understand the needs of a restaurant, One Brick Studio is the best choice!&quot;
                         </p>
                     </blockquote>
                     <figcaption className="mt-10">
                         <Image
                             alt=""
-                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                            src={GenericAvatar}
                             className="mx-auto size-16 rounded-full"
-                            height={10} width={10}
+                            height={100} width={100}
                         />
                         <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                            <div className="font-semibold text-gray-900">Judith Black</div>
+                            <div className="font-semibold text-gray-900">Topi Vappa Biryani</div>
                             <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
                                 <circle r={1} cx={1} cy={1} />
                             </svg>
-                            <div className="text-gray-600">Owner, Hotel Prabhu</div>
+                            <div className="text-gray-600">Restaurant</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -71,23 +71,22 @@ export default function OurTestimonials() {
                 <figure className="mt-10">
                     <blockquote className="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
                         <p>
-                            “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                            molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+                        &quot;One Brick Studio truly understood our vision for a luxurious yet functional jewellery store. They designed a space that perfectly blends elegance, security, and customer comfort. The attention to detail in lighting, display arrangements, and space optimization has significantly enhanced our store’s appeal. Our customers love the inviting ambiance, and the design has helped boost our sales! We highly recommend One Brick Studio to anyone looking to create a standout retail space.&quot;
                         </p>
                     </blockquote>
                     <figcaption className="mt-10">
                         <Image
                             alt=""
-                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                            src={GenericAvatar}
                             className="mx-auto size-16 rounded-full"
-                            height={10} width={10}
+                            height={100} width={100}
                         />
                         <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                            <div className="font-semibold text-gray-900">Judith Black</div>
+                            <div className="font-semibold text-gray-900">LA Joyeria Jewellery</div>
                             <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
                                 <circle r={1} cx={1} cy={1} />
                             </svg>
-                            <div className="text-gray-600">Owner, Hotel Prabhu</div>
+                            <div className="text-gray-600">Jewellery Shop</div>
                         </div>
                     </figcaption>
                 </figure>

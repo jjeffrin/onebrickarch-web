@@ -15,14 +15,14 @@ export default function OurTeam() {
 
     const people: ITeam[] = [
         {
-            name: 'Mr. Nihil Antony',
+            name: 'Ar. Nihil Antony',
             role: 'Founder/CEO',
             imageUrl: '/img/team/Nihil_Antony.webp',
             url: 'https://www.linkedin.com/in/nihil-antony-a034351a0',
             urlIcon: LINKEDIN
         },
         {
-            name: 'Mrs. Arsha Rajan',
+            name: 'Ar. Arsha Rajan',
             role: 'Co-Founder/CEO',
             imageUrl: '/img/team/Arsha.webp',
             url: 'https://www.linkedin.com/in/arsha-rajan-6270581a0',
@@ -46,14 +46,14 @@ export default function OurTeam() {
             urlIcon: INSTAGRAM
         },
         {
-            name: 'Mr. Vinith Kumar',
+            name: 'Er. Vinith Kumar',
             role: 'Project Manager',
-            imageUrl: '/img/team/generic.webp',
+            imageUrl: '/img/team/Vinith.webp',
             url: 'https://www.linkedin.com/in/vinith-kumar-13228231a',
             urlIcon: LINKEDIN
         },
         {
-            name: 'Mr. Ratheesh Mon R',
+            name: 'Er. Ratheesh Mon R',
             role: 'Construction Management Head',
             imageUrl: '/img/team/Ratheessh_Mon.webp',
             url: 'https://www.linkedin.com/in/ratheesh-ratheesh-02b23322a',
@@ -68,17 +68,22 @@ export default function OurTeam() {
         },
         {
             name: 'Mr. Castro',
-            role: 'Creative Head',
+            role: 'Creative Head/Editor',
             imageUrl: '/img/team/Antony_Castro.webp',
             url: 'https://www.linkedin.com/in/castro-antony-1a6986347',
             urlIcon: LINKEDIN
         },
         {
             name: 'Mr. Alex M',
-            role: 'Public Relationship Officer',
+            role: 'Public Relationship Officer/Admin',
             imageUrl: '/img/team/Alex.webp',
             url: 'https://www.linkedin.com/in/alex-m-b900512bb',
             urlIcon: LINKEDIN
+        },
+        {
+            name: 'Er. Sowmya',
+            role: '3D Visualizer',
+            imageUrl: '/img/team/Sowmya.webp'
         }
     ]
 
@@ -86,7 +91,7 @@ export default function OurTeam() {
         <div className="bg-slate-50 py-24 sm:py-32">
             <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
                 <div className="max-w-xl">
-                    <h2 className="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+                    <h2 className="text-pretty text-3xl font-semibold tracking-tight text-brand sm:text-4xl">
                         Meet our team 🤝
                     </h2>
                     <p className="mt-6 text-lg/8 text-gray-600">

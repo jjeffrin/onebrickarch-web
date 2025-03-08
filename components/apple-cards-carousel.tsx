@@ -15,7 +15,7 @@ import {
 import { IoMdClose } from "react-icons/io"
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import Image, { ImageProps } from "next/image";
+import Image, { ImageProps, StaticImageData } from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
 interface CarouselProps {
@@ -24,7 +24,7 @@ interface CarouselProps {
 }
 
 type Card = {
-    src: string;
+    src: StaticImageData;
     title: string;
     category: string;
     content: React.ReactNode;
