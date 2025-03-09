@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { AuroraBackground } from "./aurora-background";
 import { NumberTicker } from "./number-ticker";
 import Image from "next/image"
-import logoImg from "../public/img/Houses-amico.svg"
+import logo from "../public/img/logo.png"
 
 export function LandingSection() {
     return (
@@ -18,13 +18,20 @@ export function LandingSection() {
                 <main className="flex flex-col items-center justify-center h-[100vh]">
 
                     {/* Image */}
-                    <Image src={logoImg} alt="One Brick Studio Logo" className="h-[15rem]" />
+                    <Image src={logo} alt="One Brick Studio Logo" sizes="200vw"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                        }} />
 
                     {/* Heading */}
-                    <h1 className="font-bold text-3xl text-center mb-1 md:text-6xl"><span className="text-brand">ONE BRICK</span> Architects</h1>
+                    {/* <h1 className="font-bold text-3xl text-center mb-1 md:text-6xl"><span className="text-brand">ONE BRICK</span> Architects</h1> */}
 
                     {/* Sub Content */}
-                    <p className="text-center text-sm mb-4 md:text-xl">Peak performance architecting, it&apos;s as good as it gets.</p>
+                    <p className="text-center px-8 font-semibold text-sm mb-4 md:text-2xl">Peak performance architecting, it&apos;s as good as it gets.</p>
+
+                    {/* Sub Content */}
+                    <p className="text-center px-8 text-sm mb-4 md:text-xl">At <span className="text-brand font-semibold">One Brick Studio</span>, we transform ideas into extraordinary spaces. Whether it&apos;s innovative <span className="text-brand font-semibold">interiors, stunning architecture, or immersive 3D visualizations</span>, we craft designs that inspire and elevate everyday living.</p>
 
                     {/* Project count  */}
                     <NumberTicker value={100} descr="+ projects," className="text-xl font-semibold mb-2" />

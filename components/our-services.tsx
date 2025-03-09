@@ -22,7 +22,7 @@ export default function OurServices() {
                   Interior
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                  We craft interiors that blend aesthetics with functionality, ensuring each space reflects your personality and needs. From material selection to spatial planning, our designs enhance comfort and elevate everyday living.
                 </p>
               </div>
               <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
@@ -43,7 +43,7 @@ export default function OurServices() {
               <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Architecture</p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.
+                  Our architectural solutions prioritize innovation, sustainability, and practicality. We design spaces that are not only visually striking but also structurally sound, energy-efficient, and tailored to your vision.
                 </p>
               </div>
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
@@ -62,7 +62,7 @@ export default function OurServices() {
               <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Landscape</p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.
+                  We create outdoor spaces that harmonize with their surroundings, enhancing both beauty and functionality. From lush gardens to urban landscapes, our designs integrate nature with modern living.
                 </p>
               </div>
               <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
@@ -83,7 +83,7 @@ export default function OurServices() {
                   3D Visualisation
                 </p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                  Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget sem sodales gravida.
+                  We bring your ideas to life through immersive 3D renderings, providing a realistic preview of your project before construction begins. Our detailed visualizations help refine design choices and ensure a seamless execution.
                 </p>
               </div>
               {/* fill this */}

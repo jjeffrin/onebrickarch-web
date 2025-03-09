@@ -29,7 +29,7 @@ export default function OurTestimonials() {
                             className="mx-auto size-16 rounded-full"
                             height={100} width={100}
                         />
-                        <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                        <div className="mt-4 flex items-center justify-center space-x-3 text-base text-center">
                             <div className="font-semibold text-gray-900">Dr. Juliet Philos, MDS</div>
                             <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
                                 <circle r={1} cx={1} cy={1} />

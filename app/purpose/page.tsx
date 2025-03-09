@@ -5,17 +5,17 @@ export default function OurPurpose() {
             {/* Vision */}
             <h2 className="text-center font-semibold text-brand text-xl">Our Vision 💡</h2>
             <p className="mx-auto mt-2 max-w-3xl text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl mb-4">
-                &quot;To shape a world where architecture seamlessly blends innovation, functionality, and sustainability—creating spaces that inspire, endure, and elevate the human experience.&quot;
+                &quot;To shape a world where architecture seamlessly blends <span className="text-brand">innovation, functionality, and sustainability—creating</span> spaces that inspire, endure, and elevate the human experience.&quot;
             </p>
 
             {/* Mission */}
             <h2 className="text-center font-semibold text-brand text-xl mt-12">Our Mission 🎯</h2>
             <ul className="mx-auto max-w-4xl text-xl md:text-4xl tracking-tight font-semibold mt-2 text-center">
-                <li className="mb-2">• To design spaces that are aesthetically captivating, highly functional, and sustainable.</li>
-                <li className="mb-2">• To make great architecture accessible, balancing creativity with budget-friendly solutions.</li>
-                <li className="mb-2">• To enhance communities by integrating timeless design with modern innovations.</li>
-                <li className="mb-2">• To prioritize client needs, ensuring a seamless and collaborative design experience.</li>
-                <li className="mb-2">• To lead with integrity, innovation, and a commitment to environmental responsibility.</li>
+                <li className="mb-2">• To design spaces that are <span className="text-brand">aesthetically captivating, highly functional, and sustainable.</span></li>
+                <li className="mb-2">• To make great architecture <span className="text-brand">accessible, balancing creativity with budget-friendly solutions.</span></li>
+                <li className="mb-2">• To enhance communities by <span className="text-brand">integrating timeless design</span> with modern innovations.</li>
+                <li className="mb-2">• To <span className="text-brand">prioritize client needs</span>, ensuring a seamless and collaborative design experience.</li>
+                <li className="mb-2">• To lead with integrity, innovation, and a commitment to <span className="text-brand">environmental responsibility.</span></li>
             </ul>
 
             {/* Mission 1 Descr */}
